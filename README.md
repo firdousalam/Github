@@ -9,3 +9,10 @@ The possible challenges are:
 How will you add the third-party library in your repo?
 How will you get further updates (of the third-party library) in the future?
 This is where git submodule comes into the picture!
+Git submodule will allow you to add a vendor library to your project and get their future updates instantly.
+
+To add a Git submodule use:
+
+Syntax: git submodule add <URL of vendor library>
+
+Example: git submodule add https://github.com/doctrine/some-library.git
