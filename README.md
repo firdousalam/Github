@@ -16,3 +16,12 @@ To add a Git submodule use:
 Syntax: git submodule add <URL of vendor library>
 
 Example: git submodule add https://github.com/doctrine/some-library.git
+
+  Git Submodule - Cheat Sheet
+git submodule add <URL>: Adds a submodule to the project.
+git submodule status: View status (working, staging, or indexed files) of all the submodules.
+git submodule update: Updates submodules after switching branches.
+git submodule update --init: After cloning a new repo, if you need to add submodules to it from .gitmodules file, use this command.
+git submodule update --init --recursive: If the submodules inside a newly cloned repo are nested, then use this.
+git submodule update --remote: Pulls all changes in the submodules.
+  
