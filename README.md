@@ -25,3 +25,8 @@ git submodule update --init: After cloning a new repo, if you need to add submod
 git submodule update --init --recursive: If the submodules inside a newly cloned repo are nested, then use this.
 git submodule update --remote: Pulls all changes in the submodules.
   
+$ git reflog
+fc3d0e7 (HEAD -> branchA) HEAD@{0}: commit: Deleted
+d01d36d (HEAD -> branchA, master) HEAD@{0}: checkout: moving from master to branchA
+d01d36d (HEAD -> branchA, master) HEAD@{1}: commit: File Created
+8c2419a HEAD@{2}: reset: moving to HEAD
