@@ -47,6 +47,15 @@ git submodule update --init: After cloning a new repo, if you need to add submod
 git submodule update --init --recursive: If the submodules inside a newly cloned repo are nested, then use this.
 git submodule update --remote: Pulls all changes in the submodules.
   
+  Learn Git Reflog
+Git reflog has the superpower to track your head.
+
+The difference between log and reflog is that:
+
+git log will track every commit that you make and record it as a snapshot at a particular time, whereas git reflog will keep track of commits that are made as well as the commits that are discarded.
+This is provided in a rolling buffer for 30 days
+
+The git reflog command will list down the logs whenever the HEAD changes like the branch was created, cloned, checked-out, renamed, or any commits made on the branch.
 $ git reflog
 fc3d0e7 (HEAD -> branchA) HEAD@{0}: commit: Deleted
 d01d36d (HEAD -> branchA, master) HEAD@{0}: checkout: moving from master to branchA
