@@ -1,6 +1,28 @@
 # Github
 Git command
 
+You started the Journey by exploring the Prodigious Git course and then completed the Interstellar Git.
+
+Let us have a quick recap of the concepts covered in this course:
+
+git cherrypick (Moving commits between branches)
+
+git stash (Saving changes temporarily)
+
+git submodules (Adding a subproject)
+
+git Blame (Finding the author of a line)
+
+git Bisect (Finding the commit which introduced a bug)
+
+git reflog (Retrieving deleted commits)
+
+git hooks (Automating things using script)
+
+Hope you enjoyed the course!
+
+Git Checkout Bye!
+
 Using Third-Party Library
 Consider you are working on a project that creates a man from a boy. Instead of writing the code from scratch, you found a third-party library, called mustache repo, which can add the required feature to your project.
 
